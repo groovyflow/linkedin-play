@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/linkedin-play -Dhttp.port=$PORT $PLAY_OPTS -DapplyEvolutions.default=true
