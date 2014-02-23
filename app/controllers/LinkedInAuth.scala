@@ -13,11 +13,12 @@ import play.api.libs.json.Json
 import scala.concurrent.ExecutionContext.Implicits.global
 
 object LinkedInAuth extends Controller{
+  //!!!!TODO  Mabye LinkedIn requires that redirect url be https rather than http!!!
   
   type Request = play.api.mvc.Request[play.api.mvc.AnyContent]
   //TODO: store these somewhere, probably encrypted  Possibly in application.conf
-  val apiKey = "77ind0mayn2hrn"
-  val secretKey = "N8kH4Vvfje0eWaAZ"
+  val apiKey = "7768r0agsplyix"
+  val secretKey = "osOtOm7sxRXnVtB1"
   val redirectUrlScheme = "http"
   val redirectPath = "/linkedin/redirect/accept" //TODO Could we use routes here?
 
